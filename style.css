@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.nav {
+  background-color: aqua;
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+}
+.nav .subnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.nav .subnav h3 {
+  font-size: 16px;
+}
+.nav .subnav input {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+.nav .subnav button {
+  background-color: orange;
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.main1 {
+  text-align: center;
+  padding: 20px;
+}
+.main1 .main11 h1 {
+  color: orange;
+}
+.main1 .main11 h3 {
+  max-width: 400px;
+  margin: auto;
+}
+.main1 .main12 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
+.main1 .main12 button {
+  padding: 8px 15px;
+  border: 2px solid orange;
+  border-radius: 10px;
+  cursor: pointer;
+  background: none;
+}
+
+.main2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+.main2 .main21 {
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+.main2 .main21 img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.main3 {
+  text-align: center;
+  padding: 20px;
+}
+.main3 button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid orange;
+  background: none;
+  cursor: pointer;
+}
+
+.main4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+.main4 .main41 {
+  width: 90%;
+  max-width: 500px;
+}
+.main4 .main41 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.main4 .main42 {
+  text-align: center;
+  max-width: 500px;
+}
+.main4 .main42 .main421 {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.main4 .main42 .main421 button {
+  background-color: white;
+  color: orange;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid orange;
+  cursor: pointer;
+}
+.main4 .main42 p {
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.main4 .main42 button {
+  padding: 10px;
+  border: 2px solid orange;
+  background: none;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .main4 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .main41 {
+    width: 40%;
+  }
+  .main42 {
+    width: 50%;
+  }
+}/*# sourceMappingURL=style.css.map */
